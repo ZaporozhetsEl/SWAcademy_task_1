@@ -186,7 +186,7 @@ header{
   min-height: 950px;
   max-height: 1080px;
   text-align: center;
-  background: url("../img/Shape\ 1.png") center no-repeat;
+  background: url("img/Shape 1.png") center no-repeat;
 	background-size: cover;
 }
 
@@ -370,7 +370,7 @@ header{
 
 
 .about{
-  background: url("../img/Rectangle\ 2-2.png") center no-repeat;
+  background: url("img/Rectangle 2-2.png") center no-repeat;
 }
 .about_inner{
   padding:0;
