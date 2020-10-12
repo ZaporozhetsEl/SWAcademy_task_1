@@ -212,6 +212,10 @@ header{
   max-width: 615px;
   margin: 36px auto;
 }
+.intro_desc {
+ position: relative;
+ top: -30px;
+}
 
 .intro_button{
   width: 165px;
@@ -311,25 +315,6 @@ header{
   background-color: #dcdcdc;
 }
 
-.icon::after, .icon::before {
-  content: '';
-  position: absolute;
-  width: 15px;
-  height: 2px;
-  top: 28px;
-  background-color: #dcdcdc;
-}
-
-.icon::after {
-  right:-1px;
-  transform: rotate(45deg);
-}
-
-.icon::before {
-  left:-1px;
-  transform: rotate(-45deg);
-}
-
 
 
 .features{
@@ -388,6 +373,12 @@ header{
   margin: 0 15px;
 }
 
+.desc_2 {
+  position: relative;
+  top: -350px;
+  width: 100%;
+}
+
 .about_title{
   font-weight: 500;
   font-size: 32px;
@@ -420,12 +411,12 @@ header{
 
 .pic-1{
   position: relative;
-  top: 120px;
+  top: 180px;
 }
 .pic-2 {
   position: relative;
   left: 630px;
-  top: 180px;
+  top: 230px;
 }
 
 section{
@@ -934,21 +925,13 @@ footer{
   text-align: center;   
   border-radius: 4px;   
   position: fixed;
-  margin: 20px;      
+  margin: 0 0 0 30px;      
   bottom: 30px;   
   right: 60px;
   transition: background-color .3s;   
   z-index: 1000; 
 } 
-#button_up:hover {   
-  cursor: pointer;   
-  background-color: #fff; 
-  color:rgba(15, 123, 255, 1); ;
-} 
-#button_up:active {   
-  color: #fff;
-  background-color:rgba(15, 123, 255, 1);
-} 
+
 
 @media (max-width:1200px){
   section{
@@ -984,9 +967,18 @@ footer{
   .features_inner{
     padding: 130px 0;
   }
-
-  .blue_back{
-    display: none;
+.about{
+background_image: none;
+  }
+.about_pic {
+display:none;
+  }
+#button_up {
+   right: -10px;
+   bottom: -10px;
+  }
+ #button_up img {
+    width: 65%;
   }
 }
 
@@ -1145,6 +1137,12 @@ footer{
     .intro_arrow{
       display: none;
     }
+    .about_desc {
+      text-align: center;
+	}
+     .about_text {
+     padding: 0 20px;
+      }
 
     .about_item{
       padding: 60px 0;
