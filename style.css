@@ -1008,6 +1008,9 @@ display:none;
   .about_desc{
     width:90%;
   }
+.desc_2 {
+top: 50px;
+    }
 
   .feature_title{
     margin: 16px 0;
