@@ -1,324 +1,344 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name = "viewport" content ="width=device-width, initial-scale=1">
-    <link href="style.css" rel="stylesheet">
-    <title>AppSon</title>
- </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>MQ Diploma</title>
+</head>
 <body>
-  <a name='top'></a>
-  <header>
-    <div class="logo_name">AppSon</div>
-    <div class="header_navigation">
-      <nav>
-        <a href="#">Home</a>
-        <a href="#">Features</a>
-        <a href="#">Pricing</a>
-        <a href="#">Pages</a>
-      </nav>
-      <button type="button" name="signup" class="button_signup">sign up</button>
-    </div>
-      <button type="button" name="button" class="nav-burger">
-        <span class = "nav-burger__item">Menu</span>
-    </button>
-  </header>
-
-  <div class="intro" >
-    <section class="intro_inner">
-      <div class="intro_desc">
-      <div class="intro_title">Best Desktop App for You</div>
-      <div class="intro_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-      <div class="intro_buttons">
-        <button type="button" name="download" class="intro_button intro_button--download">Download</button>
-        <button type="button" name="free trial" class="intro_button">Free Trial</button>
-      </div>
-      </div>
-        <div class="intro_devices">
-          <div class="intro_deivce intro_device--left">
-            <img src="img\left_phone.png" alt="left-device" >
+<header class='header'>
+   <div class='header-menu'>
+     <div class='logo'>
+        <a href='#'><img src="svg/noemi-logo.svg" alt="Noemi"></a>
+     </div>
+        <nav class='menu'>
+          <div class="burger-menu"><img class="burger-menu-img" src="svg/icons8-меню-26.svg" alt="#"></div>
+        <ul class='menu-list'>
+          <li class='menu-list-item'><a href="#">Главная</a></li>
+          <li class='menu-list-item'><a href="#">Посты</a></li>
+          <li class='menu-list-item'><a href="#">Статьи</a></li>
+          <li class='menu-list-item'><a href="#">Теги</a></li>
+          <li class='menu-list-item'><a href="#">Темы</a></li>
+          <li class='menu-list-item'><a href="#">Контакты</a></li>
+        </ul>
+            </nav>
           </div>
-          <div class="intro_deivce intro_device--center">
-            <img src="img\center_phone.png" alt="center-device" >
-          </div>
-          <div class="intro_deivce intro_device--right">
-            <img src="img\right_phone.png" alt="right-device" >
-          </div>
-        </div>
+        <div class='header-title'><h1>Блог о творчестве, спорте и образе жизни</h1></div>
+      </header>
 
-        <div class="scroll_down scroll_down--active">
-          <a href="#" data-scroll="#features">
-            <div class="intro_arrow">
-              <div class="icon"></div>
-            </div>
-          </a>
-        </div>
-      </section>
-    </div>
-
-
-    <div class="features" id="features">
-      <section class="features_inner">
-        <div class="feature">
-          <img src="img\Icon_1.png" alt="">
-          <div class="feature_title">Analysis</div>
-          <div class="feature_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</div>
-        </div>
-
-        <div class="feature">
-          <img src="img\Icon_2.png" alt="">
-          <div class="feature_title">Clean Design</div>
-          <div class="feature_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</div>
-        </div>
-
-        <div class="feature">
-          <img src="img\Icon_3.png" alt="">
-          <div class="feature_title">Messaging</div>
-          <div class="feature_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</div>
-        </div>
-      </section>
-    </div> 
-
-
-
-    <div class="about">
-      <section class="about_inner">
-        <div class="about_item">
-          <div class="about_pic">
-            <div class="about_pic pic-1">
-              <img src="img\Image 2.png" alt="">
-            </div>
-            <div class="about_pic pic-2">
-              <img src="img\Image 2-2.png" alt="">
-            </div>
-          </div>
-
-          <div class="about_desc">
-            <div class="about_title">Easy Messaging</div>
-            <div class="about_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-            <div class="read_more">
-              <a href="#">Read More <i class="fas fa-arrow-right"></i></a>
+      <article class="trends">
+        <div class="trends-title"><h2>Сейчас в тренде</h2></div>
+      <div class="trend-cards">
+        <div class="trend-card">
+          <div class="trend-preview"><img src="imges/trend1.jpg" class="trend-img" alt=""></div>
+          <div class="trend-body">
+            <ul class="trend-tegs">
+                <li class="trend-teg"><a href="#" class="trend-teg-link">Lifestyle</a></li>
+                <li class="trend-teg"><a href="#" class="trend-teg-link">Interior</a></li>
+            </ul>
+            <div class="trend-title">
+                <a href="#" class="trend-title-link"><h2>Сейчас в тренде: сад на подоконнике</h2></a>
             </div>
           </div>
         </div>
 
-        <div class="about_item">
-          <div class="about_desc">
-            <div class="about_desc desc_2">
-            <div class="about_title">Keep In Touch</div>
-            <div class="about_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-            <div class="read_more">
-              <a href="#">Read More <i class="fas fa-arrow-right"></i></a>
-             </div>
+        <div class="trend-card">
+          <div class="trend-preview"><img src="imges/trend2.jpg" class="trend-img" alt=""></div>
+          <div class="trend-body">
+            <ul class="trend-tegs">
+                <li class="trend-teg"><a href="#" class="trend-teg-link">Food</a></li>
+            </ul>
+            <div class="trend-title">
+                <a href="#" class="trend-title-link"><h2>Сыры на красивых картинках из интернета: какие они на вкус?</h2></a>
             </div>
-          </div>
-
-        </div>
-      </section>
-    </div> 
-
-
-
-    <div class="how">
-      <section>
-        <div class="section_title">
-          <p>How Does It Works?</p>
-          <div class="title_icon">
-            <img src="img\2.png" alt="">
           </div>
         </div>
 
-        <div class="section_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.</div>
-        <div class="how_items">
-          <div class="how_line">
-            <img src="img\Line.png" alt="">
-          </div>
-          <div class="how_item">
-            <img src="img\Icon.png" alt="">
-            <div class="how_subtitle">Create An Account</div>
-            <div class="how_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</div>
-          </div>
-
-          <div class="how_item">
-            <img src="img\Icon-2.png" alt="">
-            <div class="how_subtitle">Confirm Email</div>
-            <div class="how_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</div>
-          </div>
-
-          <div class="how_item">
-            <img src="img\Icon-3.png" alt="">
-            <div class="how_subtitle">See Results</div>
-            <div class="how_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</div>
-          </div>
-        </div> 
-      </section>
-
-
-      <div class="pricing" id="pricing">
-        <section class="pricing_inner">
-          <div class="pricing_plan">
-            <div class="pricing_title">Pricing Plan</div>
-            <div class="pricing_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.</div>
-            <div class="pricing_buttons">
-              <button type="button" name="monthly" class="pricing_button pricing_button--montly pricing_button--active">Monthly</button>
-              <button type="button" name="yearly" class="pricing_button pricing_button--yearly">Yearly</button>
+        <div class="trend-card">
+          <div class="trend-preview"><img src="imges/trend3.jpg" class="trend-img" alt=""></div>
+          <div class="trend-body">
+            <ul class="trend-tegs">
+                <li class="trend-teg"><a href="#" class="trend-teg-link">Lifestyle</a></li>
+                <li class="trend-teg"><a href="#" class="trend-teg-link">Trevel</a></li>
+            </ul>
+            <div class="trend-title">
+                <a href="#" class="trend-title-link"><h2>Собираемся в первый поход в горы</h2></a>
             </div>
           </div>
+        </div>
 
-          <div class="plan_item">
-            <img src="img\Paper_plane.png" alt="Paper plane">
-            <div class="plan_title">Standart</div>
-            <div class="plan_text">
-              <ul>
-                <li>2gb Hosting</li>
-                <li>10 Custom Domain</li>
-                <li>SSD Hosting</li>
-                <li>50 gb Bandwith</li>
-                <li>Free Support</li>
-              </ul>
-              <div class="plan_price"><span class="dollar">$</span>19.00</div>
-              <button type="button" name="try now" class="plan_button">Try Now</button>
-            </div>
-          </div>
-
-          <div class="plan_item">
-            <img src="img\Rocket.png" alt="Rocket">
-            <div class="plan_title">Premium</div>
-            <div class="plan_text">
-              <ul>
-                <li>2gb Hosting</li>
-                <li>10 Custom Domain</li>
-                <li>SSD Hosting</li>
-                <li>50 gb Bandwith</li>
-                <li>Free Support</li>
-              </ul>
-              <div class="plan_price"><span class="dollar">$</span>49.00</div>
-              <button type="button" name="try now" class="plan_button">Try Now</button>
-            </div>
-          </div>
-        </section>
-      </div>
-
-
-      <div class="trusted">
-        <img src="img\item_5.png" alt="Hands">
-        <div class="trusted_inner">
-          <div class="trusted_header">Trusted By More Than 55M Peoples</div>
-          <div class="trusted_carousel">
-            <div class="carousel_elem">
-              <div class="elem_header">
-                <div class="elem_name">Raisa Moni</div>
-                <div class="elem_icon"><img src="img/Twitter icon.png" alt="twitter icon"><i class="fab fa-twitter"></i></div>
-              </div>
-              <div class="elem_status">Envato Customer</div>
-              <div class="elem_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etamet.</div>
+        <div class="trend-card">
+          <div class="trend-preview"><img src="imges/trend4.jpg" class="trend-img" alt=""></div>
+          <div class="trend-body">
+            <ul class="trend-tegs">
+                <li class="trend-teg"><a href="#" class="trend-teg-link">Food</a></li>
+                <li class="trend-teg"><a href="#" class="trend-teg-link">Health</a></li>
+            </ul>
+            <div class="trend-title">
+                <a href="#" class="trend-title-link"><h2>Сейчас в тренде: сколько витаминов в лимонах?</h2></a>
             </div>
           </div>
         </div>
       </div>
+    </article>
 
-      <div class="news" id="news">
-        <div class="section_title">
-          <p>Latest News From Us</p>
-          <div class="title_icon">
-            <img src="img\2.png" alt="">
-          </div>
-        </div>
-        <div class="section_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.</div>
-        <section class="news_inner">
-          <a href="#">
-            <div class="articles articles--main">
-              <div class="article_img">
-                <img src="img\latest news1.png.png" alt="">
-              </div>
-              <div class="main_title">The master bedroom suite is phenomenally spacious</div>
-              <div class="main_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</div>
-              <div class="continue"><a href="#">Continue Reading<i class="fas fa-arrow-right"></i></a></div>
+    <div class='news'>
+        <main>
+        <div class='news-desc'>
+           <div class='news-icon'><img src='imges/last-post1.jpg' alt=''></div>
+          <div class='news-content'>
+          <ul class='news-tegs'>
+          <li class='news-teg'><a class='news-teg-link' href='#'>Travel</a></li>
+          <li class='news-teg'><a class='news-teg-link' href='#'>Health</a></li>
+           </ul>
+          <div class='news-title'><h2><a class='news-title-link' href='#'>10 мест, ради которых стоит проснуться на рассвете</a></h2></div>
+            <div class='news-data'>10 июня 2019<span class='author'>Неизвестный автор</span></div>
+          <div class='news-text'><p>Итак, вы в Питере. Раннее утро. Лед с рек и каналов уже ушел, запущены фонтаны города...Музеи еще закрыты. Что посмотреть?
+            </p></div>
+          </div> <!--закрывает news-content-->
+          </div> <!--закрывает news-desc-->
+          
+          <div class='news-desc'>
+           <div class='news-icon'><img src='imges/last-post2.jpg' alt=''></div>
+            <div class='news-content'>
+              <ul class='news-tegs'>
+          <li class='news-teg'><a class='news-teg-link' href='#'>Health</a></li>
+          <li class='news-teg'><a class='news-teg-link' href='#'>Lifestyle</a></li>
+           </ul>
+          <div class='news-title'><h2><a class='news-title-link' href='#'>Йога для начинающих в домашних условиях</a></h2></div>
+              <div class='news-data'>10 июня 2019<span class='author'>Неизвестный автор</span></div>
+          <div class='news-text'><p>Расскажем, какие упражнения выбрать и как сделать коврик для йоги из того, что можно найти в шкафу.</p></div>
             </div>
-          </a>
-
-          <div class="articles">
-            <a href="#">
-              <div class="article">
-                <div class="article_img">
-                  <img src="img\latest news2.png.png" alt="">
-                </div>
-                <div class="article_item">
-                  <div class="article_title">The master bedroom suite is phenomenally spacious</div>
-                  <div class="article_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</div>
-                </div>
-              </div>
-            </a>
-
-            <a href="#">
-              <div class="article">
-                <div class="article_img">
-                  <img src="img\latest news3.png.png" alt="">
-                </div>
-                <div class="article_item">
-                  <div class="article_title">The master bedroom suite is phenomenally spacious</div>
-                  <div class="article_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</div>
-                </div>
-              </div>
-            </a>
-
-            <a href="#">
-              <div class="article">
-                <div class="article_img">
-                  <img src="img\latest news4.png.png" alt="">
-                </div>
-                  <div class="article_item">
-                  <div class="article_title">The master bedroom suite is phenomenally spacious</div>
-                  <div class="article_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</div>
-                </div>
-              </div>
-            </a>
+        </div>
+          
+        <div class='news-desc'>
+          <div class='news-icon'><img src='imges/last-post3.jpg' alt=''></div>
+             <div class='news-content'>
+          <ul class='news-tegs'>
+          <li class='news-teg'><a class='news-teg-link' href='#'>Music</a></li>
+           </ul>
+          <div class='news-title'><h2><a class='news-title-link' href='#'>Лучшие музыкальные фестивали этого лета</a></h2></div>
+               <div class='news-data'>10 июня 2019<span class='author'>Неизвестный автор</span></div>
+          <div class='news-text'><p>Лето на носу, а с ним и музыкальные фестивали. На каком же из них вы разобьёте свою палатку?</p>
+            <p>Мы составили список лучших летних фестивалей по всему миру.<p></div>
+            </div>
+        </div>
+          
+        <div class='news-desc news-desc-food'>
+         <div class='news-icon'><img src='imges/last-post4.jpg' alt=''></div>
+            <div class='news-content'>
+              <ul class='news-tegs'>
+          <li class='news-teg'><a class='news-teg-link' href='#'>Lifestyle</a></li>
+          <li class='news-teg'><a class='news-teg-link' href='#'>Food</a></li>
+           </ul>
+          <div class='news-title'><h2><a class='news-title-link' href='#'>Наукоемкий подход к кулинарии</a></h2></div>
+              <div class='news-data'>10 июня 2019<span class='author'>Неизвестный автор</span></div>
+          <div class='news-text'><p>Узнаем основы проектирования новых пищевых и около-пищевых опытов, вскроем физику, химию и микробиологию еды.</p></div>
           </div>
-        </section> 
-      </div> 
-
-
-      <div class="start">
-        <section class="start_inner">
-          <div class="start_item">
-            <div class="start_title">Try 30 Days Free Trial</div>
-            <div class="start_text">No credit card required</div>
+        </div>
+          
+        <div class='news-desc'>
+         <div class='news-icon'><img src='imges/last-post5.jpg' alt=''></div>
+            <div class='news-content'>
+          <ul class='news-tegs'>
+          <li class='news-teg'><a class='news-teg-link' href='#'>Lifestyle</a></li>
+          <li class='news-teg'><a class='news-teg-link' href='#'>Interior</a></li>
+          <li class='news-teg'><a class='news-teg-link' href='#'>Art</a></li>
+           </ul>
+          <div class='news-title'><h2><a class='news-title-link' href='#'>Делаем модные принты на подушку для интерьера</a></h2></div>
+              <div class='news-data'>10 июня 2019<span class='author'>Неизвестный автор</span></div>
+          <div class='news-text'><p>Подушки для дивана целесообразнее заказать в съемных чехлах на молнии, если потребуется чистка подушек, проще снять чехлы, чем везти подушку в химчистку.</p></div>
           </div>
-          <button type="button" name="get started">Get Started<i class="fas fa-arrow-right"></i></button>
-        </section>
+        </div>
+      </main>
+        <aside class='aside-news'> 
+          <div class='aside-ferst-block'>
+          <div class='aside-header'><h3>Новые посты</h3></div>
+         <div class='aside-news-desc'>
+           <div class='aside-news-icon'><img src='imges/2.jpg' alt=''></div>
+          <div class='aside-news-content'>
+            <div class='aside-news-data'>14 июня 2019</div>
+          <div class='aside-news-title'><h3><a href='#'>10 мест, ради которых стоит проснуться на рассвете</a></h3></div>
+          </div>
+          </div> 
+          
+          <div class='aside-news-desc'>
+           <div class='aside-news-icon'><img src='imges/151.jpg' alt=''></div>
+          <div class='aside-news-content'>
+            <div class='aside-news-data'>14 июня 2019</div>
+          <div class='aside-news-title'><h3><a href='#'>Йога для домашних</a></h3></div>
+          </div>
+          </div> 
+          
+          <div class='aside-news-desc'>
+           <div class='aside-news-icon'><img src='imges/45.jpg' alt=''></div>
+          <div class='aside-news-content'>
+            <div class='aside-news-data'>14 июня 2019</div>
+          <div class='aside-news-title'><h3><a href='#'>Как мы превратили классное место в балкон</a></h3></div>
+          </div>
+          </div> 
+          
+          <div class='aside-news-desc'>
+           <div class='aside-news-icon'><img src='imges/501.jpg' alt=''></div>
+          <div class='aside-news-content'>
+            <div class='aside-news-data'>14 июня 2019</div>
+          <div class='aside-news-title'><h3><a href='#'>Кулинарный подход к науке</a></h3></div>
+          </div>
+          </div> 
+          
+        <div class='aside-news-desc'>
+           <div class='aside-news-icon'><img src='imges/7.jpg' alt=''></div>
+          <div class='aside-news-content'>
+            <div class='aside-news-data'>14 июня 2019</div>
+          <div class='aside-news-title'><h3><a href='#'>Лучшие прически для распущенных волос</a></h3></div>
+          </div>
+          </div> 
+            </div>
+          <form class='search-form'>
+            <label>
+            <input class='field-search' type='text' placeholder='Найти...'>
+            <span class='search'>Введите текст</span>
+            </label>
+            <button class='loupe' name='search-button' value='button' type='submit'><span class='button'>Найти</span></button>
+          </form>
+          
+          <div class='subscribe-form'>
+          <div class='subscribe-title'>
+            <h3>Рассылка</h3>
+          </div>
+          <form class='email-form'>
+            <label>
+            <input class='email-field' type='email' placeholder='Ваш e-mail адрес'>
+             <span class='email'>Ввидите ваш email</span>
+             </label>
+            <button class='subscribe-button' name='subscribe' type='submit'>Подписаться</button>
+          </form>
+        </div>
+           
+          <div class='tegs'>
+            <div class='tegs-title'>
+              <h3>Теги</h3>
+              </div>
+            <ul class='tegs-list'>
+              <li class='teg'><a class='teg-link' href="#">Fashion</a></li>
+              <li class='teg'><a class='teg-link' href="#">Music</a></li>
+              <li class='teg'><a class='teg-link' href="#">Lifestyle</a></li>
+              <li class='teg'><a class='teg-link' href="#">Art</a></li>
+              <li class='teg'><a class='teg-link' href="#">Interior</a></li>
+              <li class='teg'><a class='teg-link' href="#">Travel</a></li>
+              <li class='teg'><a class='teg-link' href="#">Food</a></li>
+              <li class='teg'><a class='teg-link' href="#">Health</a></li>
+            </ul>
+          </div>
+          <div class='themes'>
+            <div class='themes-title'>
+              <h3>Темы</h3>
+              </div>
+            <ul class='themes-list'>
+              <li class='theme'><a class='theme-link' href="#">Красота</a><span class='theme-number'>12</span></li>
+              <li class='theme'><a class='theme-link' href="#">Здоровье</a><span class='theme-number'>4</span></li>
+              <li class='theme'><a class='theme-link' href="#">Образ жизни</a><span class='theme-number'>145</span></li>
+              <li class='theme'><a class='theme-link' href="#">Музыка</a><span class='theme-number'>28</span></li>
+              <li class='theme'><a class='theme-link' href="#">Спорт</a><span class='theme-number'>62</span></li>
+              <li class='theme'><a class='theme-link' href="#">Йога</a><span class='theme-number'>8</span></li>
+            </ul>
+          </div>
+        </aside>
+    </div> <!--закрывет news-->
+          
+    <article class="products">
+        <div class="products-title"><h2>Наши изделия</h2></div>
+        <div class="product-cards">
+          <div class="prodact-card">
+            <div class="product-item"><img class="product-img" src="imges/shop-item-desk1.jpg" alt=""></div>
+            <div class="product-body">
+            <div class="shop-title"><h2><a href="#">Подушки на диван</a></h2></div>
+            <div class="shop-content"><p>Набор из двух подушек с модными принтами. Видео о создании <a href="#">здесь</a>.</p></div>
+            <div class="price"><p class="sale-price">1000 ₽</p><p>800 ₽</p></div>
+            <button class="shop-button" type="button">В магазин</button>
+          </div>
+          </div>
+          <div class="prodact-card">
+            <div class="product-item"><img class="product-img" src="imges/shop-item-desk2.jpg" alt=""></div>
+            <div class="product-body">
+            <div class="shop-title"><h2><a href="#">Кукла "зайчик"</a></h2></div>
+            <div class="shop-content"><p>Интерьерная рукодельная кукла "Зайчик", созданию которой посвящена<a href="#"> весенняя серия постов</a> в блоге и несколько подкастов.</p></div>
+            <div class="price"><p>3500 ₽</p></div>
+            <button class="shop-button" type="button">В магазин</button>
+          </div>
+          </div>
+          <div class="prodact-card">
+            <div class="product-item"><img class="product-img" src="imges/shop-item-desk3.jpg" alt=""></div>
+            <div class="product-body">
+            <div class="shop-title"><h2><a href="#">Шестиугольная рамка</a></h2></div>
+            <div class="shop-content"><p>Необычна рамка для украшения дома из видео <a href="#">"Как сделать рамку из подручных средств за 30 минут".</a></p></div>
+            <div class="price"><p class="sale-price">500₽</p><p>400₽</p></div>
+            <button class="shop-button" type="button">В магазин</button>
+          </div>
+          </div>
+        </div>
+      </article>
+
+      <footer class='footer'>
+        <address class='widget'>
+          <ul class='socials'>
+           <li class='social-item'>
+             <a href='#' class='social-link social-link-twitter'>
+               <span class='social-link-text'>Twitter</span>
+             </a>
+           </li>
+            <li class='social-item'>
+             <a href='#' class='social-link social-link-pinterest'>
+               <span class='social-link-text'>Pinterest</span>
+             </a>
+           </li>
+            <li class='social-item'>
+             <a href='#' class='social-link social-link-facebook'>
+               <span class='social-link-text'>Facebook</span>
+             </a>
+           </li>
+            <li class='social-item'>
+             <a href='#' class='social-link social-link-instagram'>
+               <span class='social-link-text'>Instagram</span>
+             </a>
+           </li>
+            <li class='social-item'>
+             <a href='#' class='social-link social-link-tumblr'>
+               <span class='social-link-text'>Tumblr</span>
+             </a>
+           </li>
+          </ul>
+        </address>
+        <div class='copyright'>
+          <span class='copyright-text'>Copyright © 2009–2019 City Blog LLC.</span>
+        </div>
+      </footer>
+      <div class="popup">
+        <div class="popup-content">
+        <div class="popup-title"><h2>Ваш фидбек</h2></div>
+        <span class="select-title">Как часто вы заходите на сайт?</span>
+        <select class="popup-select" name="" id="">
+          <option selected>Почти каждый день</option>
+          <option value="">Раз в несколько дней</option>
+          <option value="">Раз в несколько недель</option>
+          <option value="">Несколько раз в год</option>
+        </select>
+        <span class='popup-form-hint'>Вы подписаны на e-mail рассылку?</span>
+        <form class='popup-form'>
+          <label class="radio-group">
+          <input class='radio' type='radio' name="radio-group">
+          <span class="radio-group-text">Да</span>
+          </label>
+          <label class="radio-group">
+          <input class='radio' type='radio' name="radio-group">
+          <span class="radio-group-text">Нет</span>
+          </label>
+        </form>
+        <span class="textarea-title">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
+        <textarea class="textarea-content" name="" id="" placeholder="Может, больше рецептов?"></textarea>
+        <button class='send-button' name='subscribe' type='submit'>Отправить</button>
+        </div>
       </div>
-
-
-    <div class="subscribe">
-      <section class="subscribe_inner">
-        <div class="subscribe_logo">AppSon</div>
-        <div class="subscribe_field">
-          <input type="text" placeholder="Enter your email">
-          <button type="button" name="button">Subscribe</button>
-        </div>
-      </section>
-    </div> 
-
-    <footer>
-      <section class="footer_inner">
-        <a href='#top' id='button_up'><img src='img/arrow.png'></a>
-        <div class="copyright">© 2018 Copyright, All Rights Reserved by AppSon</div>
-        <nav class="footer_nav">
-          <a href="#" target="_blank">Terms & Condition </a>
-          <a href="#" target="_blank">Privacy Policy </a>
-          <a href="#" target="_blank">Help</a>
-        </nav>
-        <div class="footer_social footer_nav">
-          <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-          <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
-        </div>
-      </section>
-      <a href="#" data-scroll="#intro">
-        <div class="scroll_up">
-          <div class="icon"></div>
-        </div>
-      </a>
-    </footer>
-  </body>
+</body>
 </html>
